@@ -1,0 +1,22 @@
+.navbar {
+    background-color: #ccc;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0.5rem;
+
+    &__links {
+        display: flex;
+        gap: 2rem;
+
+        list-style: none;
+
+        &__link {
+            background-color: #aaa;
+            padding: 1rem;
+            box-sizing: border-box;
+        }
+    }
+}

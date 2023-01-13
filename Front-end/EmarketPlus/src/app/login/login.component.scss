@@ -61,22 +61,12 @@ legend {
     }
 
     &__inner-form {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-
         &__submit {
             width: 40%;
 
             align-self: flex-start;
-        }
-    }
 
-    /* SIGN IN FORM */
-    &__sign-in {
-
-        & fieldset {
-            
+            margin-top: 1rem;
         }
     }
 }
