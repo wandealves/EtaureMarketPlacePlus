@@ -1,0 +1,82 @@
+/* ELEMENTS STYLE */
+// TODO: Tirar esse seletor de elemento aqui e colocar em um lugar mais genérico
+fieldset {
+    margin: 0;
+    border: none;
+    padding: 0;
+}
+
+// TODO: Tirar esse seletor de elemento aqui e colocar em um lugar mais genérico
+legend {
+    width: 1px;
+    height: 1px;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    overflow: hidden;
+}
+
+/* GENERIC CLASSES STYLE */
+.input-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &:not(:last-child) {
+        margin-bottom: 0.5rem;
+    }
+
+    &__input {
+        border: 1px solid blueviolet;
+        border-radius: 3px;
+        padding: 0.5rem;
+    }
+}
+
+.form__button {
+    text-align: center;
+}
+
+/* PAGE STYLE */
+.title {
+    margin-top: 10rem;
+
+    font: {
+        size: 3rem;
+    }
+
+    text: {
+        align: center;
+    }
+}
+
+.forms {
+    display: flex;
+    justify-content: space-evenly;
+
+    margin: {
+        top: 5rem;
+    }
+
+    &__inner-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &__submit {
+            width: 40%;
+
+            align-self: flex-start;
+        }
+    }
+
+    /* SIGN IN FORM */
+    &__sign-in {
+
+        & fieldset {
+            
+        }
+    }
+}
